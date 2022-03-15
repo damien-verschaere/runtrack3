@@ -1,16 +1,13 @@
-document.addEventListener("DOMContentLoaded",event=>{
-    let butt=document.getElementById("butt");
-    var compte=1
-    function addOne(){
-        
-        for (let i = 0; i <= compte; i++) {
-            var result=compte ++
-            return result
-        }
+document.addEventListener('DOMContentLoaded', () => {
+    function addone() {
+
+        let val = document.getElementById("compteur").innerHTML;
+        document.getElementById("compteur").innerHTML = ++val;
     }
-    butt=addEventListener("click",event=>{
-       console.log(addOne())
-    }
-    )
+
+    let bouton = document.querySelector('#button')
+    bouton.addEventListener("click", (e) => {
+        addone()
+    })
 }
 )
