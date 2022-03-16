@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    window.addEventListener('scroll', (e) => {
+    window.addEventListener('scroll', () => {
 
         var footer = document.querySelector('footer')
         let round =Math.round (100 * window.scrollY / 4096)
