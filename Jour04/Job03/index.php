@@ -11,9 +11,10 @@
     <form action="">
         <input type="text" id="id">
         <input type="text" id="nom">
-        <input type="text">
-        <button id="button" type="button">chercher</button>
+        <select name="" id="select"></select>
+        <button id="btn" type="button">chercher</button>
     </form>
     <p></p>
+
 </body>
 </html>
